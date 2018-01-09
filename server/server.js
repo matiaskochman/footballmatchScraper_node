@@ -18,16 +18,7 @@ app.get('/data',(req,resp) => {
 
   parser.parseHtml().then((json)=>{
 
-    let tempArray = [];
-    coins.map((coin,index) => {
-      if(coinPrice.length > 0 ){
-
-      }else {
-        let obj = {sym:coin.symbol,priceList:[coin.priceUSD]}
-        tempArray.push(obj);
-      }
-    })
-      resp.status(200).send({msg: coins});
+      resp.status(200).send({fecha: json});
   }).catch((error) => {
 	console.error(error);
 });
