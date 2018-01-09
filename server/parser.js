@@ -5,14 +5,16 @@ const j18 = 'https://www.eurosport.es/_ajax_/results_v8_5/results_teamsports_v8_
 const j1 = 'https://www.eurosport.es/_ajax_/results_v8_5/results_teamsports_v8_5.zone?O2=1&site=ese&langueid=6&dropletid=150&domainid=141&sportid=22&revid=309&seasonid=96&mime=text%2fxml&DeviceType=desktop&roundid=5171';
 const j2 = 'https://www.eurosport.es/_ajax_/results_v8_5/results_teamsports_v8_5.zone?O2=1&site=ese&langueid=6&dropletid=150&domainid=141&sportid=22&revid=309&seasonid=96&mime=text%2fxml&DeviceType=desktop&roundid=5172';
 
-const j19 = 'https://www.eurosport.es/_ajax_/live_v8_5/livebox_v8_5.zone?O2=1&site=ese&langueid=6&dropletid=150&domainid=141&sportid=22&revid=309&AdPageName=home-event&mime=text%2fxml&DeviceType=desktop&roundid=5189';
+const j19 = 'https://www.eurosport.es/_ajax_/results_v8_5/results_teamsports_v8_5.zone?O2=1&site=ese&langueid=6&dropletid=150&domainid=141&sportid=22&revid=309&seasonid=96&mime=text%2fxml&DeviceType=desktop&roundid=5189'
 
 parseHtml = function(){
   var rawData = '';
 
+  var url = j19;
+
   return new Promise((resolve,reject) => {
 
-      https.get(j1, (res) => {
+      https.get(url, (res) => {
         const { statusCode } = res;
         const contentType = res.headers['content-type'];
 
@@ -68,6 +70,7 @@ const parseResults = (children,resultados) => {
 
   return new Promise((resolve,reject) => {
 
+    var objDate = '';
     children.each(function(index,tag){
 
       let obj = {};
@@ -76,6 +79,7 @@ const parseResults = (children,resultados) => {
         tag.children.map(function(d01,i01){
           if(d01){
             obj.date = d01.data;
+            objDate = d01.data;
             resultados.push(obj);
           }
         })
@@ -85,20 +89,49 @@ const parseResults = (children,resultados) => {
         let match = {};
         state.match = match;
         obj.state = state;
-        
-        if(tag.children[0] && tag.children[0].children[0] && tag.children[0].children[0].children[1] &&
-          tag.children[0].children[0].children[1].children[0].children[0]
+
+
+        //team1
+        if(tag.children[0]
+          && tag.children[0].children[0]
+          && tag.children[0].children[0].children[1]
+          && tag.children[0].children[0].children[1].attribs
+          && tag.children[0].children[0].children[1].attribs.class
           && tag.children[0].children[0].children[1].attribs.class.includes('team__name')){
 
+            //var t1 = tag.children[0].children[0].children[1].children[0].data;
             var team1 = tag.children[0].children[0].children[1].children[0].children[0].data;
           }
-        if(tag.children[0] && tag.children[0].children[1] && tag.children[0].children[1].children[1]
+
+
+        //time
+        if(tag.children[0]
+          && tag.children[0].children[1]
+          && tag.children[0].children[1].attribs.class.includes('match__time')
+          && tag.children[0].children[1].children[1]
+          && tag.children[0].children[1].children[1].data){
+
+
+            //var score1 = tag.children[0].children[1].children[1].children[0].data;
+            var time = tag.children[0].children[1].children[1].data;
+            obj.state.match.matchState = "notStarted";
+            obj.state.date = objDate +' '+ time;
+        }
+
+
+        //score1
+        if(tag.children[0]
+          && tag.children[0].children[1]
+          && tag.children[0].children[1].attribs.class.includes('match__scores')
+          && tag.children[0].children[1].children[1]
           && tag.children[0].children[1].children[1].children[0]
           && tag.children[0].children[1].children[1].children[0].data){
 
             var score1 = tag.children[0].children[1].children[1].children[0].data;
-          }
+            obj.state.match.localResult = score1;
+        }
 
+        //team2
         if(tag
           &&tag.children[0]
           && tag.children[0].children[2]
@@ -109,24 +142,28 @@ const parseResults = (children,resultados) => {
           && tag.children[0].children[2].children[1].attribs.class.includes('team__name')){
 
             var team2 = tag.children[0].children[2].children[1].children[0].children[0].data;
+            //var t2 = tag.children[0].children[2].children[1].children[0].data;
+
+
         }
 
+        //score2
         if(tag
           &&tag.children[0]
           &&tag.children[0].children[1]
+          && tag.children[0].children[1].attribs.class.includes('match__scores')
           &&tag.children[0].children[1].children[3]
           &&tag.children[0].children[1].children[3].children[0]
           &&tag.children[0].children[1].children[3].children[0].data){
 
           var score2 = tag.children[0].children[1].children[3].children[0].data;
+          obj.state.match.visitorResult = score2;
 
+          obj.state.match.matchState = "finished";
         }
 
         obj.localTeam = team1;
         obj.visitorTeam = team2;
-        obj.state.match.matchState = "finished";
-        obj.state.match.localResult = score1;
-        obj.state.match.visitorResult = score2;
 
         resultados.push(obj);
       }
