@@ -7,11 +7,14 @@ const j2 = 'https://www.eurosport.es/_ajax_/results_v8_5/results_teamsports_v8_5
 
 const j19 = 'https://www.eurosport.es/_ajax_/results_v8_5/results_teamsports_v8_5.zone?O2=1&site=ese&langueid=6&dropletid=150&domainid=141&sportid=22&revid=309&seasonid=96&mime=text%2fxml&DeviceType=desktop&roundid=5189'
 
-parseHtml = function(){
+parseHtml = function(url){
+  /*
+  var jornadaBase = 70;
+  var jordanaCompuesta = jornadaBase+day
+  var url_incomplete = 'https://www.eurosport.es/_ajax_/results_v8_5/results_teamsports_v8_5.zone?O2=1&site=ese&langueid=6&dropletid=150&domainid=141&sportid=22&revid=309&seasonid=96&mime=text%2fxml&DeviceType=desktop&roundid=51'
+  var url = url_incomplete.concat(jordanaCompuesta);
+*/
   var rawData = '';
-
-  var url = j19;
-
   return new Promise((resolve,reject) => {
 
       https.get(url, (res) => {

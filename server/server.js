@@ -8,21 +8,73 @@ var parser = require('./parser.js');
 const port = process.env.PORT || 3000;
 
 
+var jornadaBase = 70;
+var url_incomplete = 'https://www.eurosport.es/_ajax_/results_v8_5/results_teamsports_v8_5.zone?O2=1&site=ese&langueid=6&dropletid=150&domainid=141&sportid=22&revid=309&seasonid=96&mime=text%2fxml&DeviceType=desktop&roundid=51'
+
+
 var app = express();
 app.use(bodyParser.json());
 var rawData = '';
 var json = [];
-
+var requestsArray = [];
 
 app.get('/data',(req,resp) => {
 
-  parser.parseHtml().then((json)=>{
+  var fullObj = {};
+  var results = [];
 
-      resp.status(200).send({fecha: json});
+  var promises = [];
+
+
+  for(jornada=1;jornada<20;jornada++){
+    var requestObj = {};
+    var jordanaCompuesta = jornadaBase+jornada
+    var url = url_incomplete.concat(jordanaCompuesta);
+
+    promises[jornada] = new Promise(function(resolve,reject){
+      parser.parseHtml(url).then(function(res){
+        resolve(res);
+      }).catch(function(err){
+        reject(err);
+      });
+    })
+
+    //requestsArray.push(requestObj);
+  }
+
+  console.log(promises);
+
+  Promise.all(promises).then(values => {
+    let base = 'j';
+    let jornada = {};
+    values.map(function(val,index){
+      let jornada_index = base.concat(index+1);
+      jornada[jornada_index] = val;
+
+      //console.log(jornada);
+
+      //results.push(jornada);
+
+      //console.log(results);
+    });
+
+    //console.log(results);
+    resp.status(200).send(jornada);
+
+  }).catch(function(err){
+    console.log(err)
+  });
+
+
+  //console.log(resultados);
+  //fullObj.jornadas = results;
+/*
+  parser.parseHtml(i).then((json)=>{
+    results.push(json);
   }).catch((error) => {
-	console.error(error);
-});
-
+    console.error(error);
+  });
+*/
 });
 
 
