@@ -91,7 +91,6 @@ const parseResults = (children,resultados) => {
         let state = {};
         let match = {};
         state.match = match;
-        obj.state = state;
 
 
         //team1
@@ -104,7 +103,24 @@ const parseResults = (children,resultados) => {
 
             //var t1 = tag.children[0].children[0].children[1].children[0].data;
             var team1 = tag.children[0].children[0].children[1].children[0].children[0].data;
-          }
+        }
+
+          //team2
+        if(tag
+            &&tag.children[0]
+            && tag.children[0].children[2]
+            && tag.children[0].children[2].children[1]
+            && tag.children[0].children[2].children[1].children[0]
+            && tag.children[0].children[2].children[1].children[0].children[0]
+            && tag.children[0].children[2].children[1].children[0].children[0].data
+            && tag.children[0].children[2].children[1].attribs.class.includes('team__name')){
+
+              var team2 = tag.children[0].children[2].children[1].children[0].children[0].data;
+              //var t2 = tag.children[0].children[2].children[1].children[0].data;
+        }
+        obj.localTeam = team1;
+        obj.visitorTeam = team2;
+        obj.state = state;
 
 
         //time
@@ -134,21 +150,6 @@ const parseResults = (children,resultados) => {
             obj.state.match.localResult = score1;
         }
 
-        //team2
-        if(tag
-          &&tag.children[0]
-          && tag.children[0].children[2]
-          && tag.children[0].children[2].children[1]
-          && tag.children[0].children[2].children[1].children[0]
-          && tag.children[0].children[2].children[1].children[0].children[0]
-          && tag.children[0].children[2].children[1].children[0].children[0].data
-          && tag.children[0].children[2].children[1].attribs.class.includes('team__name')){
-
-            var team2 = tag.children[0].children[2].children[1].children[0].children[0].data;
-            //var t2 = tag.children[0].children[2].children[1].children[0].data;
-
-
-        }
 
         //score2
         if(tag
@@ -165,8 +166,6 @@ const parseResults = (children,resultados) => {
           obj.state.match.matchState = "finished";
         }
 
-        obj.localTeam = team1;
-        obj.visitorTeam = team2;
 
         resultados.push(obj);
       }

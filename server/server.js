@@ -53,7 +53,7 @@ app.get('/data',(req,resp) => {
 
       if(val && val.length > 0){
         let jornada_index = base.concat(count);
-        jornada[jornada_index] = val;
+        jornadas[jornada_index] = val;
         count++;
 
       }
