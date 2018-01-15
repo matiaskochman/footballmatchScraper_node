@@ -77,6 +77,7 @@ const parseResults = (children,resultados) => {
     children.each(function(index,tag){
 
       let obj = {};
+      obj.key = index;
 
       if(tag && tag.attribs && tag.attribs.class && tag.attribs.class.includes('date-caption')){
         tag.children.map(function(d01,i01){
@@ -166,7 +167,11 @@ const parseResults = (children,resultados) => {
           obj.state.match.matchState = "finished";
         }
 
-
+/*
+        calculatePoints(obj).then(function(points){
+          obj.points = points;
+        })
+*/
         resultados.push(obj);
       }
     })
@@ -179,4 +184,16 @@ const parseResults = (children,resultados) => {
  });
 }
 
+const calculatePoints = (obj) => {
+  return new Promise((resolve,reject) => {
+    if(obj
+      && obj.state
+      && obj.state.match
+      && obj.state.match.visitorResult
+      && obj.state.match.localResult){
+
+
+    }
+  })
+}
 module.exports = {parseHtml};
