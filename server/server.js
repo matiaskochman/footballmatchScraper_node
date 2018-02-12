@@ -61,8 +61,8 @@ app.get('/data',(req,resp) => {
         let jornada_index = base.concat(count);
         //jornadas[index].jornada = jornada_index;
         //jornadas[index].val = val;
-        jornada.jornada = jornada_index;
-        jornada.val= val;
+        jornada.title = jornada_index;
+        jornada.list= val;
         jornadas[index] = jornada;
         count++;
 

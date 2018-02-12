@@ -121,7 +121,7 @@ const parseResults = (children,resultados) => {
         }
         obj.localTeam = team1;
         obj.visitorTeam = team2;
-        obj.state = state;
+        //obj.state = state;
 
 
         //time
@@ -134,8 +134,11 @@ const parseResults = (children,resultados) => {
 
             //var score1 = tag.children[0].children[1].children[1].children[0].data;
             var time = tag.children[0].children[1].children[1].data;
-            obj.state.match.matchState = "notStarted";
-            obj.state.date = objDate +' '+ time;
+            //obj.state.match.matchState = "notStarted";
+            //obj.state.date = objDate +' '+ time;
+            obj.matchState = "notStarted";
+            obj.date = objDate +' '+ time;
+
         }
 
 
@@ -148,7 +151,9 @@ const parseResults = (children,resultados) => {
           && tag.children[0].children[1].children[1].children[0].data){
 
             var score1 = tag.children[0].children[1].children[1].children[0].data;
-            obj.state.match.localResult = score1;
+            //obj.state.match.localResult = score1;
+            obj.localResult = score1;
+
         }
 
 
@@ -162,9 +167,13 @@ const parseResults = (children,resultados) => {
           &&tag.children[0].children[1].children[3].children[0].data){
 
           var score2 = tag.children[0].children[1].children[3].children[0].data;
-          obj.state.match.visitorResult = score2;
 
-          obj.state.match.matchState = "finished";
+          //obj.state.match.visitorResult = score2;
+          //obj.state.match.matchState = "finished";
+
+          obj.visitorResult = score2;
+          obj.matchState = "finished";
+
         }
 
 /*
@@ -187,10 +196,8 @@ const parseResults = (children,resultados) => {
 const calculatePoints = (obj) => {
   return new Promise((resolve,reject) => {
     if(obj
-      && obj.state
-      && obj.state.match
-      && obj.state.match.visitorResult
-      && obj.state.match.localResult){
+      && obj.visitorResult
+      && obj.localResult){
 
 
     }
