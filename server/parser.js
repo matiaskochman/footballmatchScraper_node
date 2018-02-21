@@ -144,21 +144,21 @@ const parsePartido = (partido_tag,fecha_partido) => {
     && partido_tag.children[0].children[2].children[1].attribs.class.includes('team__name')){
 
 
-      let team1 = partido_tag.children[0].children[0].children[1].children[0].data;
-      let team2 = partido_tag.children[0].children[2].children[1].children[0].data;
+      let localTeam = partido_tag.children[0].children[0].children[1].children[0].data;
+      let visitorTeam = partido_tag.children[0].children[2].children[1].children[0].data;
       if(!partido_tag.children[0].children[1].children[1].children){
 
-        var score1 = 'x';
-        var score2 = 'x';
-        var match_state = 'notStarted'
+        var localResult = 'x';
+        var visitorResult = 'x';
+        var matchState = 'notStarted'
         var match_time = partido_tag.children[0].children[1].children[1].data;
       }else{
-        var match_state = 'finished'
-        var score1 = partido_tag.children[0].children[1].children[1].children[0].data;
-        var score2 = partido_tag.children[0].children[1].children[3].children[0].data;
+        var matchState = 'finished'
+        var localResult = partido_tag.children[0].children[1].children[1].children[0].data;
+        var visitorResult = partido_tag.children[0].children[1].children[3].children[0].data;
       }
 
-      let partido = {team1,team2,score1,score2,match_time,match_state}
+      let partido = {localTeam,visitorTeam,localResult,visitorResult,match_time,matchState}
       fecha_partido.partidos.push(partido);
       //console.log(partido)
   }
