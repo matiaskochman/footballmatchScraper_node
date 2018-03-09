@@ -7,7 +7,7 @@ const j2 = 'https://www.eurosport.es/_ajax_/results_v8_5/results_teamsports_v8_5
 
 const j19 = 'https://www.eurosport.es/_ajax_/results_v8_5/results_teamsports_v8_5.zone?O2=1&site=ese&langueid=6&dropletid=150&domainid=141&sportid=22&revid=309&seasonid=96&mime=text%2fxml&DeviceType=desktop&roundid=5189'
 
-parseHtml = function({url,live}){
+parseHtml = function({url,live,index_jornada}){
   /*
   var jornadaBase = 70;
   var jordanaCompuesta = jornadaBase+day
@@ -71,7 +71,7 @@ parseHtml = function({url,live}){
               }else{
                 //aca parsea live results_v8_5
 
-                parseResults_live(children,resultados).then((res) => {
+                parseResults_live(children,resultados,index_jornada).then((res) => {
                   resolve(res);
                 }).catch(function(err){
                   console.error('error: '+err);
@@ -91,19 +91,12 @@ parseHtml = function({url,live}){
   });
 }
 
-const parseResults_live = (children,resultados) =>{
+const parseResults_live = (children,resultados,jornada) =>{
   return new Promise((resolve,reject) => {
-
     var objDate = '';
-
     fecha = [];
-
     children.each(function(index,tag){
-
-      parseFechaDia(tag,index)
-
-
-
+      parseFechaDia(tag,index,jornada)
     });
 
     console.log(fecha);
@@ -129,7 +122,7 @@ const calculatePoints = (obj) => {
   })
 }
 
-const parsePartido = (partido_tag,fecha_partido) => {
+const parsePartido = (partido_tag,fecha_partido,jornada,index_fecha_dia,index_partido) => {
 
   if(partido_tag.children[0]
     && partido_tag.children[0].children[0]
@@ -158,13 +151,15 @@ const parsePartido = (partido_tag,fecha_partido) => {
         var visitorResult = partido_tag.children[0].children[1].children[3].children[0].data;
       }
 
-      let partido = {localTeam,visitorTeam,localResult,visitorResult,match_time,matchState}
+      let index_fecha_partido = jornada.toString().concat(index_fecha_dia).concat(index_partido);
+
+      let partido = {localTeam,visitorTeam,localResult,visitorResult,match_time,matchState,index_fecha_partido}
       fecha_partido.partidos.push(partido);
       //console.log(partido)
   }
 }
 
-const parseFechaDia = (tag,index) =>{
+const parseFechaDia = (tag,index_fecha_dia,jornada) =>{
 
   if(tag
     && tag.attribs
@@ -174,7 +169,7 @@ const parseFechaDia = (tag,index) =>{
       var obj = {};
       var partidos = [];
       obj.partidos = [];
-      obj.key = index;
+      obj.key = index_fecha_dia;
       var match_date_list = [];
       var match_date_anterior = '';
       let count_partidos = 0;
@@ -198,7 +193,7 @@ const parseFechaDia = (tag,index) =>{
           var partidos =  tag.children[1].children;
 
           partidos.map(function(partido_tag,index){
-            parsePartido(partido_tag,fecha_partido);
+            parsePartido(partido_tag,fecha_partido,jornada,index_fecha_dia,index);
           });
 
           fecha.push(fecha_partido);
