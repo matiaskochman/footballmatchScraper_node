@@ -48,7 +48,8 @@ app.get('/data',(req,resp) => {
     //urls_live[jornada] = url_live;
     urls_live.push(url_live);
 
-    let index_jornada = jornada +1;
+    //let index_jornada = jornada +1;
+    let index_jornada = jornada;
     console.log('jornada_index: ',index_jornada)
     promises[jornada] = new Promise(function(resolve,reject){
       //parsear el html y convertirlo en json

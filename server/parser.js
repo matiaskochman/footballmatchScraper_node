@@ -97,6 +97,7 @@ const parseResults_live = (children,resultados,jornada) =>{
     fecha = [];
     children.each(function(index,tag){
       parseFechaDia(tag,index,jornada)
+
     });
 
     console.log(fecha);
@@ -150,10 +151,11 @@ const parsePartido = (partido_tag,fecha_partido,jornada,index_fecha_dia,index_pa
         var localResult = partido_tag.children[0].children[1].children[1].children[0].data;
         var visitorResult = partido_tag.children[0].children[1].children[3].children[0].data;
       }
-
-      let index_fecha_partido = jornada.toString().concat(index_fecha_dia).concat(index_partido);
+      index_fecha_dia--;
+      let index_fecha_partido = jornada.toString().concat('_').concat(index_fecha_dia.toString()).concat('_').concat(index_partido);
 
       let partido = {localTeam,visitorTeam,localResult,visitorResult,match_time,matchState,index_fecha_partido}
+      index_fecha_dia++;
       fecha_partido.partidos.push(partido);
       //console.log(partido)
   }
