@@ -7,7 +7,7 @@ const j2 = 'https://www.eurosport.es/_ajax_/results_v8_5/results_teamsports_v8_5
 
 const j19 = 'https://www.eurosport.es/_ajax_/results_v8_5/results_teamsports_v8_5.zone?O2=1&site=ese&langueid=6&dropletid=150&domainid=141&sportid=22&revid=309&seasonid=96&mime=text%2fxml&DeviceType=desktop&roundid=5189'
 
-parseHtml = function({url,live,index_jornada}){
+parseHtml = function({url,live,index_jornada,noresults}){
   /*
   var jornadaBase = 70;
   var jordanaCompuesta = jornadaBase+day
@@ -71,7 +71,7 @@ parseHtml = function({url,live,index_jornada}){
               }else{
                 //aca parsea live results_v8_5
 
-                parseResults_live(children,resultados,index_jornada).then((res) => {
+                parseResults_live(children,resultados,index_jornada,noresults).then((res) => {
                   resolve(res);
                 }).catch(function(err){
                   console.error('error: '+err);
@@ -91,12 +91,12 @@ parseHtml = function({url,live,index_jornada}){
   });
 }
 
-const parseResults_live = (children,resultados,jornada) =>{
+const parseResults_live = (children,resultados,jornada,noresults) =>{
   return new Promise((resolve,reject) => {
     var objDate = '';
     fecha = [];
     children.each(function(index,tag){
-      parseFechaDia(tag,index,jornada)
+      parseFechaDia(tag,index,jornada,noresults)
 
     });
 
@@ -123,7 +123,7 @@ const calculatePoints = (obj) => {
   })
 }
 
-const parsePartido = (partido_tag,fecha_partido,jornada,index_fecha_dia,index_partido) => {
+const parsePartido = (partido_tag,fecha_partido,jornada,index_fecha_dia,index_partido,noresults) => {
 
   if(partido_tag.children[0]
     && partido_tag.children[0].children[0]
@@ -140,28 +140,44 @@ const parsePartido = (partido_tag,fecha_partido,jornada,index_fecha_dia,index_pa
 
       let localTeam = partido_tag.children[0].children[0].children[1].children[0].data;
       let visitorTeam = partido_tag.children[0].children[2].children[1].children[0].data;
-      if(!partido_tag.children[0].children[1].children[1].children){
 
+      if(noresults){
+          console.log(noresults)
+      }
+
+      if(!partido_tag.children[0].children[1].children[1].children){
         var localResult = 'x';
         var visitorResult = 'x';
         var matchState = 'notStarted'
         var match_time = partido_tag.children[0].children[1].children[1].data;
       }else{
-        var matchState = 'finished'
-        var localResult = partido_tag.children[0].children[1].children[1].children[0].data;
-        var visitorResult = partido_tag.children[0].children[1].children[3].children[0].data;
+
+        if(noresults){
+          //para crear casos de prueba donde ninguna fecha del torneo tiene
+          //partidos con resultados
+          var localResult = 'x';
+          var visitorResult = 'x';
+          var matchState = 'notStarted'
+          var match_time = '00:01';
+        }else{
+          //el caso normal
+          var matchState = 'finished'
+          var localResult = partido_tag.children[0].children[1].children[1].children[0].data;
+          var visitorResult = partido_tag.children[0].children[1].children[3].children[0].data;
+        }
+
       }
+
       index_fecha_dia--;
       let index_fecha_partido = jornada.toString().concat('_').concat(index_fecha_dia.toString()).concat('_').concat(index_partido);
 
       let partido = {localTeam,visitorTeam,localResult,visitorResult,match_time,matchState,index_fecha_partido}
       index_fecha_dia++;
       fecha_partido.partidos.push(partido);
-      //console.log(partido)
   }
 }
 
-const parseFechaDia = (tag,index_fecha_dia,jornada) =>{
+const parseFechaDia = (tag,index_fecha_dia,jornada,noresults) =>{
 
   if(tag
     && tag.attribs
@@ -195,7 +211,7 @@ const parseFechaDia = (tag,index_fecha_dia,jornada) =>{
           var partidos =  tag.children[1].children;
 
           partidos.map(function(partido_tag,index){
-            parsePartido(partido_tag,fecha_partido,jornada,index_fecha_dia,index);
+            parsePartido(partido_tag,fecha_partido,jornada,index_fecha_dia,index,noresults);
           });
 
           fecha.push(fecha_partido);

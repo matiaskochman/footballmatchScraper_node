@@ -27,6 +27,15 @@ var requestsArray = [];
 
 app.get('/data',(req,resp) => {
 
+  //para parsear toda las fechas sin los resultados
+  //simulando que no se jugo ningun partido
+  //para hacer las pruebas de los forecasts
+  let noresults = false;
+
+  if(req.query.noresults){
+    noresults = req.query.noresults;
+  }
+
   var fullObj = {};
   var results = [];
 
@@ -56,7 +65,7 @@ app.get('/data',(req,resp) => {
 
       //var obj = {url:url,live:false};
 
-      var obj = {url:url_live,live:true,index_jornada};
+      var obj = {url:url_live,live:true,index_jornada,noresults};
 
       parser.parseHtml(obj).then(function(res){
         resolve(res);
