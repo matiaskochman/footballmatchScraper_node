@@ -43,7 +43,7 @@ parseLeague = (req,resp) => {
 
     //let index_jornada = jornada +1;
     let index_jornada = jornada;
-    console.log('jornada_index: ',index_jornada)
+    //console.log('jornada_index: ',index_jornada)
     promises[jornada] = new Promise(function(resolve,reject){
       //parsear el html y convertirlo en json
 

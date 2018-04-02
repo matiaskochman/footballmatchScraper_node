@@ -96,7 +96,7 @@ const parseResults_live = (children,jornada,noresults) =>{
     var objDate = '';
     fecha = [];
     children.each(function(index,tag){
-      parseFechaDia(tag,index,jornada)
+      parseFechaDia(tag,index,jornada,noresults)
 
     });
 
@@ -138,10 +138,6 @@ const parsePartido = (partido_tag,fecha_partido,jornada,index_fecha_dia,index_pa
 
       let localTeam = partido_tag.children[0].children[0].children[1].children[0].data;
       let visitorTeam = partido_tag.children[0].children[2].children[1].children[0].data;
-
-      if(noresults){
-          console.log(noresults)
-      }
 
       if(!partido_tag.children[0].children[1].children[1].children){
         var localResult = 'x';
