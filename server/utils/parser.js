@@ -71,7 +71,7 @@ parseHtml = function({url,live,index_jornada,noresults}){
               }else{
                 //aca parsea live results_v8_5
 
-                parseResults_live(children,resultados,index_jornada,noresults).then((res) => {
+                parseResults_live(children,index_jornada,noresults).then((res) => {
                   resolve(res);
                 }).catch(function(err){
                   console.error('error: '+err);
@@ -91,21 +91,19 @@ parseHtml = function({url,live,index_jornada,noresults}){
   });
 }
 
-const parseResults_live = (children,resultados,jornada,noresults) =>{
+const parseResults_live = (children,jornada,noresults) =>{
   return new Promise((resolve,reject) => {
     var objDate = '';
     fecha = [];
     children.each(function(index,tag){
-      parseFechaDia(tag,index,jornada,noresults)
+      parseFechaDia(tag,index,jornada)
 
     });
 
-    console.log(fecha);
-    resultados.push(fecha);
-    if(resultados){
-      resolve(resultados);
+    if(fecha){
+      resolve(fecha);
     }else{
-      reject(resultados);
+      reject(fecha)
     }
   });
 
