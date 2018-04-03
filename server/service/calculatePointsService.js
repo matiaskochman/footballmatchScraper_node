@@ -46,20 +46,18 @@ calculateTotalPoints = async (req,resp,db) => {
   				for(let z=0;z<jornadas[i].list[j].partidos.length;z++){
   					let index_fecha_partido = jornadas[i].list[j].partidos[z].index_fecha_partido;
 
-
             usuariosArray.forEach(function(usuario) {
 
                 if(usuario.Apuestas[index_fecha_partido]){
-
-                  //let obj = {name:usuario.facebookData.name,index:index_fecha_partido,points:'notCalculated'}
 
                   let points = calculatePointsOfMatch(jornadas[i].list[j].partidos[z],usuario.Apuestas[index_fecha_partido]);
 
                   let apuesta = {...usuario.Apuestas[index_fecha_partido]};
                   apuesta.points = points;
+
                   apuesta.date_modified = moment().format();
-                  //obj.points = points;
-                  //obj.facebookId = usuario.facebookData.id;
+
+                  //agregando data para hacer update en grupo
                   let route = `/users/${usuario.facebookData.id}/Apuestas/${index_fecha_partido}`
                   usuarios_modificados[route] = apuesta;
 
@@ -74,6 +72,7 @@ calculateTotalPoints = async (req,resp,db) => {
     console.error(error)
   });
 
+
   await db.ref().update(usuarios_modificados).then(function(){
     console.log('update users with points')
   }).catch(function(err){
@@ -86,12 +85,9 @@ calculateTotalPoints = async (req,resp,db) => {
 
 calculatePointsOfMatch = (fechaJugada,apuesta) =>{
 
-  console.log(fechaJugada);
-  console.log(apuesta);
+
   if(fechaJugada['matchState'] === 'finished'){
-
     if(fechaJugada.localResult === apuesta.localForecast){
-
       if(fechaJugada.visitorResult === apuesta.visitorForecast){
 
         //acerto el resultado exacto , 5ptos
@@ -114,7 +110,6 @@ calculatePointsOfMatch = (fechaJugada,apuesta) =>{
         // ganó visitante y forecast no acertó
         return 0;
       }
-
     }else if(fechaJugada.localResult === fechaJugada.visitorResult){
       if(apuesta.localForecast === apuesta.visitorForecast){
         // ganó visitante y el forecast acertó
@@ -123,10 +118,7 @@ calculatePointsOfMatch = (fechaJugada,apuesta) =>{
         // ganó visitante y forecast no acertó
         return 0;
       }
-
     }
-
-
   }
 
   return 0;
