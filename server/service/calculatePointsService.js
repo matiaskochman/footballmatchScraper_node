@@ -1,6 +1,6 @@
 //var admin = require("firebase-admin");
 const _ = require('lodash');
-
+const moment = require('moment');
 // Fetch the service account key JSON file contents
 var serviceAccount = require("../firebase/firebase_config.json");
 
@@ -17,17 +17,11 @@ var db = admin.database();
 var matchMap = {};
 
 calculateTotalPoints = async (req,resp,db) => {
-
-
   var usuariosRef = db.ref('/users');
-
-
-  var usuarios_modificados = [];
+  var usuarios_modificados = {};
   var usuarios;
   await usuariosRef.once('value').then(function (snapshot) {
     usuarios = snapshot.val();
-    //console.log(usuarios)
-
   }).catch(function(err){
     console.log(err)
   })
@@ -57,33 +51,21 @@ calculateTotalPoints = async (req,resp,db) => {
 
                 if(usuario.Apuestas[index_fecha_partido]){
 
-                  let obj = {name:usuario.facebookData.name,index:index_fecha_partido,points:'notCalculated'}
+                  //let obj = {name:usuario.facebookData.name,index:index_fecha_partido,points:'notCalculated'}
 
-                  let points = calculatePointsOfMatch(jornadas[i].list[j].partidos[z],usuario.Apuestas[index_fecha_partido])
+                  let points = calculatePointsOfMatch(jornadas[i].list[j].partidos[z],usuario.Apuestas[index_fecha_partido]);
 
-                  obj.points = points;
+                  let apuesta = {...usuario.Apuestas[index_fecha_partido]};
+                  apuesta.points = points;
+                  apuesta.date_modified = moment().format();
+                  //obj.points = points;
+                  //obj.facebookId = usuario.facebookData.id;
+                  let route = `/users/${usuario.facebookData.id}/Apuestas/${index_fecha_partido}`
+                  usuarios_modificados[route] = apuesta;
 
-                  usuarios_modificados.push(obj);
                 }
             });
-            /*
-  					let forecast = forecasts[index_fecha_partido];
-  					if(_.isNull(forecast) || _.isUndefined(forecast)){
-  						continue;
-  					}
-  					jornadas[i].list[j].partidos[z].localForecast = forecast.localForecast;
-  					jornadas[i].list[j].partidos[z].visitorForecast = forecast.visitorForecast;
-  					if(typeof forecast.matchState === 'undefined'){
-  						throw new Error('forecast.matchState undefined')
-  					}
-            */
-            //console.log(index_fecha_partido);
-  					//jornadas[i].list[j].partidos[z].matchState = forecast.matchState ;
 
-  					/*
-  					let points = calculatePoints(forecast,matchResults[i].list[j].partidos[z]);
-  					matchResults[i].list[j].partidos[z].points = points;
-  					*/
   				}
   			}
   		}
@@ -91,6 +73,12 @@ calculateTotalPoints = async (req,resp,db) => {
   }).catch(function(error){
     console.error(error)
   });
+
+  await db.ref().update(usuarios_modificados).then(function(){
+    console.log('update users with points')
+  }).catch(function(err){
+    console.error(err);
+  })
 
   resp.status(200).send({usuarios_modificados});    //console.log(snapshot.val());
 
@@ -110,8 +98,6 @@ calculatePointsOfMatch = (fechaJugada,apuesta) =>{
         return 5;
       }
     }
-
-
     if(fechaJugada.localResult < fechaJugada.visitorResult){
         if(apuesta.localForecast < apuesta.visitorForecast){
           // ganó visitante y el forecast acertó

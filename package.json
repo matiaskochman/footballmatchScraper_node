@@ -21,6 +21,7 @@
     "express": "^4.14.0",
     "firebase-admin": "^5.11.0",
     "lodash": "^4.17.4",
+    "moment": "^2.22.0",
     "mongodb": "^3.0.2"
   },
   "devDependencies": {
