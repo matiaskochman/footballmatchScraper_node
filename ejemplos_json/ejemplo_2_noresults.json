@@ -9,17 +9,19 @@
             {
               "localTeam": "CD Leganés",
               "visitorTeam": "Deportivo Alavés",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "0_0_0"
             },
             {
               "localTeam": "Valencia",
               "visitorTeam": "UD Las Palmas",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "0_0_1"
             }
           ]
@@ -30,25 +32,28 @@
             {
               "localTeam": "Celta",
               "visitorTeam": "Real Sociedad",
-              "localResult": "2",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "0_1_0"
             },
             {
               "localTeam": "Girona",
               "visitorTeam": "Atlético de Madrid",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "0_1_1"
             },
             {
               "localTeam": "Sevilla",
               "visitorTeam": "Espanyol",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "0_1_2"
             }
           ]
@@ -59,25 +64,28 @@
             {
               "localTeam": "Athletic Club",
               "visitorTeam": "Getafe",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "0_2_0"
             },
             {
               "localTeam": "FC Barcelona",
               "visitorTeam": "Betis",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "0_2_1"
             },
             {
               "localTeam": "Deportivo",
               "visitorTeam": "Real Madrid",
-              "localResult": "0",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "0_2_2"
             }
           ]
@@ -88,17 +96,19 @@
             {
               "localTeam": "Levante",
               "visitorTeam": "Villarreal",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "0_3_0"
             },
             {
               "localTeam": "Málaga",
               "visitorTeam": "SD Eibar",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "0_3_1"
             }
           ]
@@ -114,17 +124,19 @@
             {
               "localTeam": "Real Sociedad",
               "visitorTeam": "Villarreal",
-              "localResult": "3",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "1_0_0"
             },
             {
               "localTeam": "Betis",
               "visitorTeam": "Celta",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "1_0_1"
             }
           ]
@@ -135,33 +147,37 @@
             {
               "localTeam": "Deportivo Alavés",
               "visitorTeam": "FC Barcelona",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "1_1_0"
             },
             {
               "localTeam": "Levante",
               "visitorTeam": "Deportivo",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "1_1_1"
             },
             {
               "localTeam": "Girona",
               "visitorTeam": "Málaga",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "1_1_2"
             },
             {
               "localTeam": "UD Las Palmas",
               "visitorTeam": "Atlético de Madrid",
-              "localResult": "1",
-              "visitorResult": "5",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "1_1_3"
             }
           ]
@@ -172,33 +188,37 @@
             {
               "localTeam": "Espanyol",
               "visitorTeam": "CD Leganés",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "1_2_0"
             },
             {
               "localTeam": "SD Eibar",
               "visitorTeam": "Athletic Club",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "1_2_1"
             },
             {
               "localTeam": "Getafe",
               "visitorTeam": "Sevilla",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "1_2_2"
             },
             {
               "localTeam": "Real Madrid",
               "visitorTeam": "Valencia",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "1_2_3"
             }
           ]
@@ -214,9 +234,10 @@
             {
               "localTeam": "CD Leganés",
               "visitorTeam": "Getafe",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "2_0_0"
             }
           ]
@@ -227,33 +248,37 @@
             {
               "localTeam": "Real Madrid",
               "visitorTeam": "Levante",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "2_1_0"
             },
             {
               "localTeam": "Valencia",
               "visitorTeam": "Atlético de Madrid",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "2_1_1"
             },
             {
               "localTeam": "Sevilla",
               "visitorTeam": "SD Eibar",
-              "localResult": "3",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "2_1_2"
             },
             {
               "localTeam": "FC Barcelona",
               "visitorTeam": "Espanyol",
-              "localResult": "5",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "2_1_3"
             }
           ]
@@ -264,33 +289,37 @@
             {
               "localTeam": "Deportivo",
               "visitorTeam": "Real Sociedad",
-              "localResult": "2",
-              "visitorResult": "4",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "2_2_0"
             },
             {
               "localTeam": "Athletic Club",
               "visitorTeam": "Girona",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "2_2_1"
             },
             {
               "localTeam": "Celta",
               "visitorTeam": "Deportivo Alavés",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "2_2_2"
             },
             {
               "localTeam": "Villarreal",
               "visitorTeam": "Betis",
-              "localResult": "3",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "2_2_3"
             }
           ]
@@ -301,9 +330,10 @@
             {
               "localTeam": "Málaga",
               "visitorTeam": "UD Las Palmas",
-              "localResult": "1",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "2_3_0"
             }
           ]
@@ -319,9 +349,10 @@
             {
               "localTeam": "SD Eibar",
               "visitorTeam": "CD Leganés",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "3_0_0"
             }
           ]
@@ -332,33 +363,37 @@
             {
               "localTeam": "Levante",
               "visitorTeam": "Valencia",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "3_1_0"
             },
             {
               "localTeam": "Getafe",
               "visitorTeam": "FC Barcelona",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "3_1_1"
             },
             {
               "localTeam": "Betis",
               "visitorTeam": "Deportivo",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "3_1_2"
             },
             {
               "localTeam": "Atlético de Madrid",
               "visitorTeam": "Málaga",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "3_1_3"
             }
           ]
@@ -369,33 +404,37 @@
             {
               "localTeam": "Deportivo Alavés",
               "visitorTeam": "Villarreal",
-              "localResult": "0",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "3_2_0"
             },
             {
               "localTeam": "Girona",
               "visitorTeam": "Sevilla",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "3_2_1"
             },
             {
               "localTeam": "UD Las Palmas",
               "visitorTeam": "Athletic Club",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "3_2_2"
             },
             {
               "localTeam": "Real Sociedad",
               "visitorTeam": "Real Madrid",
-              "localResult": "1",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "3_2_3"
             }
           ]
@@ -406,9 +445,10 @@
             {
               "localTeam": "Espanyol",
               "visitorTeam": "Celta",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "3_3_0"
             }
           ]
@@ -424,17 +464,19 @@
             {
               "localTeam": "Valencia",
               "visitorTeam": "Málaga",
-              "localResult": "5",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "4_0_0"
             },
             {
               "localTeam": "FC Barcelona",
               "visitorTeam": "SD Eibar",
-              "localResult": "6",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "4_0_1"
             }
           ]
@@ -445,41 +487,46 @@
             {
               "localTeam": "Athletic Club",
               "visitorTeam": "Atlético de Madrid",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "4_1_0"
             },
             {
               "localTeam": "CD Leganés",
               "visitorTeam": "Girona",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "4_1_1"
             },
             {
               "localTeam": "Deportivo",
               "visitorTeam": "Deportivo Alavés",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "4_1_2"
             },
             {
               "localTeam": "Sevilla",
               "visitorTeam": "UD Las Palmas",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "4_1_3"
             },
             {
               "localTeam": "Real Madrid",
               "visitorTeam": "Betis",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "4_1_4"
             }
           ]
@@ -490,25 +537,28 @@
             {
               "localTeam": "Villarreal",
               "visitorTeam": "Espanyol",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "4_2_0"
             },
             {
               "localTeam": "Celta",
               "visitorTeam": "Getafe",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "4_2_1"
             },
             {
               "localTeam": "Levante",
               "visitorTeam": "Real Sociedad",
-              "localResult": "3",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "4_2_2"
             }
           ]
@@ -524,33 +574,37 @@
             {
               "localTeam": "Atlético de Madrid",
               "visitorTeam": "Sevilla",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "5_0_0"
             },
             {
               "localTeam": "Deportivo Alavés",
               "visitorTeam": "Real Madrid",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "5_0_1"
             },
             {
               "localTeam": "Málaga",
               "visitorTeam": "Athletic Club",
-              "localResult": "3",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "5_0_2"
             },
             {
               "localTeam": "Girona",
               "visitorTeam": "FC Barcelona",
-              "localResult": "0",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "5_0_3"
             }
           ]
@@ -561,41 +615,46 @@
             {
               "localTeam": "Espanyol",
               "visitorTeam": "Deportivo",
-              "localResult": "4",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "5_1_0"
             },
             {
               "localTeam": "Getafe",
               "visitorTeam": "Villarreal",
-              "localResult": "4",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "5_1_1"
             },
             {
               "localTeam": "UD Las Palmas",
               "visitorTeam": "CD Leganés",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "5_1_2"
             },
             {
               "localTeam": "SD Eibar",
               "visitorTeam": "Celta",
-              "localResult": "0",
-              "visitorResult": "4",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "5_1_3"
             },
             {
               "localTeam": "Real Sociedad",
               "visitorTeam": "Valencia",
-              "localResult": "2",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "5_1_4"
             }
           ]
@@ -606,9 +665,10 @@
             {
               "localTeam": "Betis",
               "visitorTeam": "Levante",
-              "localResult": "4",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "5_2_0"
             }
           ]
@@ -624,9 +684,10 @@
             {
               "localTeam": "Celta",
               "visitorTeam": "Girona",
-              "localResult": "3",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "6_0_0"
             }
           ]
@@ -637,33 +698,37 @@
             {
               "localTeam": "Deportivo",
               "visitorTeam": "Getafe",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "6_1_0"
             },
             {
               "localTeam": "Sevilla",
               "visitorTeam": "Málaga",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "6_1_1"
             },
             {
               "localTeam": "Levante",
               "visitorTeam": "Deportivo Alavés",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "6_1_2"
             },
             {
               "localTeam": "CD Leganés",
               "visitorTeam": "Atlético de Madrid",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "6_1_3"
             }
           ]
@@ -674,41 +739,46 @@
             {
               "localTeam": "Real Sociedad",
               "visitorTeam": "Betis",
-              "localResult": "4",
-              "visitorResult": "4",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "6_2_0"
             },
             {
               "localTeam": "FC Barcelona",
               "visitorTeam": "UD Las Palmas",
-              "localResult": "3",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "6_2_1"
             },
             {
               "localTeam": "Villarreal",
               "visitorTeam": "SD Eibar",
-              "localResult": "3",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "6_2_2"
             },
             {
               "localTeam": "Valencia",
               "visitorTeam": "Athletic Club",
-              "localResult": "3",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "6_2_3"
             },
             {
               "localTeam": "Real Madrid",
               "visitorTeam": "Espanyol",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "6_2_4"
             }
           ]
@@ -724,9 +794,10 @@
             {
               "localTeam": "Espanyol",
               "visitorTeam": "Levante",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "7_0_0"
             }
           ]
@@ -737,33 +808,37 @@
             {
               "localTeam": "Athletic Club",
               "visitorTeam": "Sevilla",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "7_1_0"
             },
             {
               "localTeam": "Getafe",
               "visitorTeam": "Real Madrid",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "7_1_1"
             },
             {
               "localTeam": "Deportivo Alavés",
               "visitorTeam": "Real Sociedad",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "7_1_2"
             },
             {
               "localTeam": "Atlético de Madrid",
               "visitorTeam": "FC Barcelona",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "7_1_3"
             }
           ]
@@ -774,33 +849,37 @@
             {
               "localTeam": "SD Eibar",
               "visitorTeam": "Deportivo",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "7_2_0"
             },
             {
               "localTeam": "Girona",
               "visitorTeam": "Villarreal",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "7_2_1"
             },
             {
               "localTeam": "Málaga",
               "visitorTeam": "CD Leganés",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "7_2_2"
             },
             {
               "localTeam": "Betis",
               "visitorTeam": "Valencia",
-              "localResult": "3",
-              "visitorResult": "6",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "7_2_3"
             }
           ]
@@ -811,9 +890,10 @@
             {
               "localTeam": "UD Las Palmas",
               "visitorTeam": "Celta",
-              "localResult": "2",
-              "visitorResult": "5",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "7_3_0"
             }
           ]
@@ -829,33 +909,37 @@
             {
               "localTeam": "Levante",
               "visitorTeam": "Getafe",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "8_0_0"
             },
             {
               "localTeam": "Betis",
               "visitorTeam": "Deportivo Alavés",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "8_0_1"
             },
             {
               "localTeam": "Valencia",
               "visitorTeam": "Sevilla",
-              "localResult": "4",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "8_0_2"
             },
             {
               "localTeam": "FC Barcelona",
               "visitorTeam": "Málaga",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "8_0_3"
             }
           ]
@@ -866,33 +950,37 @@
             {
               "localTeam": "Villarreal",
               "visitorTeam": "UD Las Palmas",
-              "localResult": "4",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "8_1_0"
             },
             {
               "localTeam": "Celta",
               "visitorTeam": "Atlético de Madrid",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "8_1_1"
             },
             {
               "localTeam": "CD Leganés",
               "visitorTeam": "Athletic Club",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "8_1_2"
             },
             {
               "localTeam": "Real Madrid",
               "visitorTeam": "SD Eibar",
-              "localResult": "3",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "8_1_3"
             }
           ]
@@ -903,17 +991,19 @@
             {
               "localTeam": "Real Sociedad",
               "visitorTeam": "Espanyol",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "8_2_0"
             },
             {
               "localTeam": "Deportivo",
               "visitorTeam": "Girona",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "8_2_1"
             }
           ]
@@ -929,33 +1019,37 @@
             {
               "localTeam": "Deportivo Alavés",
               "visitorTeam": "Valencia",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "9_0_0"
             },
             {
               "localTeam": "Atlético de Madrid",
               "visitorTeam": "Villarreal",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "9_0_1"
             },
             {
               "localTeam": "Athletic Club",
               "visitorTeam": "FC Barcelona",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "9_0_2"
             },
             {
               "localTeam": "Sevilla",
               "visitorTeam": "CD Leganés",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "9_0_3"
             }
           ]
@@ -966,33 +1060,37 @@
             {
               "localTeam": "Getafe",
               "visitorTeam": "Real Sociedad",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "9_1_0"
             },
             {
               "localTeam": "Girona",
               "visitorTeam": "Real Madrid",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "9_1_1"
             },
             {
               "localTeam": "SD Eibar",
               "visitorTeam": "Levante",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "9_1_2"
             },
             {
               "localTeam": "Málaga",
               "visitorTeam": "Celta",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "9_1_3"
             }
           ]
@@ -1003,17 +1101,19 @@
             {
               "localTeam": "UD Las Palmas",
               "visitorTeam": "Deportivo",
-              "localResult": "1",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "9_2_0"
             },
             {
               "localTeam": "Espanyol",
               "visitorTeam": "Betis",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "9_2_1"
             }
           ]
@@ -1029,9 +1129,10 @@
             {
               "localTeam": "Betis",
               "visitorTeam": "Getafe",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "10_0_0"
             }
           ]
@@ -1042,33 +1143,37 @@
             {
               "localTeam": "Valencia",
               "visitorTeam": "CD Leganés",
-              "localResult": "3",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "10_1_0"
             },
             {
               "localTeam": "Deportivo",
               "visitorTeam": "Atlético de Madrid",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "10_1_1"
             },
             {
               "localTeam": "Deportivo Alavés",
               "visitorTeam": "Espanyol",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "10_1_2"
             },
             {
               "localTeam": "FC Barcelona",
               "visitorTeam": "Sevilla",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "10_1_3"
             }
           ]
@@ -1079,41 +1184,46 @@
             {
               "localTeam": "Levante",
               "visitorTeam": "Girona",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "10_2_0"
             },
             {
               "localTeam": "Celta",
               "visitorTeam": "Athletic Club",
-              "localResult": "3",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "10_2_1"
             },
             {
               "localTeam": "Real Sociedad",
               "visitorTeam": "SD Eibar",
-              "localResult": "3",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "10_2_2"
             },
             {
               "localTeam": "Villarreal",
               "visitorTeam": "Málaga",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "10_2_3"
             },
             {
               "localTeam": "Real Madrid",
               "visitorTeam": "UD Las Palmas",
-              "localResult": "3",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "10_2_4"
             }
           ]
@@ -1129,9 +1239,10 @@
             {
               "localTeam": "Girona",
               "visitorTeam": "Real Sociedad",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "11_0_0"
             }
           ]
@@ -1142,33 +1253,37 @@
             {
               "localTeam": "Getafe",
               "visitorTeam": "Deportivo Alavés",
-              "localResult": "4",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "11_1_0"
             },
             {
               "localTeam": "CD Leganés",
               "visitorTeam": "FC Barcelona",
-              "localResult": "0",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "11_1_1"
             },
             {
               "localTeam": "Sevilla",
               "visitorTeam": "Celta",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "11_1_2"
             },
             {
               "localTeam": "Atlético de Madrid",
               "visitorTeam": "Real Madrid",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "11_1_3"
             }
           ]
@@ -1179,33 +1294,37 @@
             {
               "localTeam": "Málaga",
               "visitorTeam": "Deportivo",
-              "localResult": "3",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "11_2_0"
             },
             {
               "localTeam": "Espanyol",
               "visitorTeam": "Valencia",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "11_2_1"
             },
             {
               "localTeam": "UD Las Palmas",
               "visitorTeam": "Levante",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "11_2_2"
             },
             {
               "localTeam": "Athletic Club",
               "visitorTeam": "Villarreal",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "11_2_3"
             }
           ]
@@ -1216,9 +1335,10 @@
             {
               "localTeam": "SD Eibar",
               "visitorTeam": "Betis",
-              "localResult": "5",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "11_3_0"
             }
           ]
@@ -1234,9 +1354,10 @@
             {
               "localTeam": "Celta",
               "visitorTeam": "CD Leganés",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "12_0_0"
             }
           ]
@@ -1247,33 +1368,37 @@
             {
               "localTeam": "Deportivo Alavés",
               "visitorTeam": "SD Eibar",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "12_1_0"
             },
             {
               "localTeam": "Real Madrid",
               "visitorTeam": "Málaga",
-              "localResult": "3",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "12_1_1"
             },
             {
               "localTeam": "Betis",
               "visitorTeam": "Girona",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "12_1_2"
             },
             {
               "localTeam": "Levante",
               "visitorTeam": "Atlético de Madrid",
-              "localResult": "0",
-              "visitorResult": "5",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "12_1_3"
             }
           ]
@@ -1284,33 +1409,37 @@
             {
               "localTeam": "Deportivo",
               "visitorTeam": "Athletic Club",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "12_2_0"
             },
             {
               "localTeam": "Real Sociedad",
               "visitorTeam": "UD Las Palmas",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "12_2_1"
             },
             {
               "localTeam": "Villarreal",
               "visitorTeam": "Sevilla",
-              "localResult": "2",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "12_2_2"
             },
             {
               "localTeam": "Valencia",
               "visitorTeam": "FC Barcelona",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "12_2_3"
             }
           ]
@@ -1321,9 +1450,10 @@
             {
               "localTeam": "Espanyol",
               "visitorTeam": "Getafe",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "12_3_0"
             }
           ]
@@ -1339,9 +1469,10 @@
             {
               "localTeam": "Málaga",
               "visitorTeam": "Levante",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "13_0_0"
             }
           ]
@@ -1352,33 +1483,37 @@
             {
               "localTeam": "FC Barcelona",
               "visitorTeam": "Celta",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "13_1_0"
             },
             {
               "localTeam": "Atlético de Madrid",
               "visitorTeam": "Real Sociedad",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "13_1_1"
             },
             {
               "localTeam": "Sevilla",
               "visitorTeam": "Deportivo",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "13_1_2"
             },
             {
               "localTeam": "Athletic Club",
               "visitorTeam": "Real Madrid",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "13_1_3"
             }
           ]
@@ -1389,33 +1524,37 @@
             {
               "localTeam": "CD Leganés",
               "visitorTeam": "Villarreal",
-              "localResult": "3",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "13_2_0"
             },
             {
               "localTeam": "Getafe",
               "visitorTeam": "Valencia",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "13_2_1"
             },
             {
               "localTeam": "SD Eibar",
               "visitorTeam": "Espanyol",
-              "localResult": "3",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "13_2_2"
             },
             {
               "localTeam": "UD Las Palmas",
               "visitorTeam": "Betis",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "13_2_3"
             }
           ]
@@ -1426,9 +1565,10 @@
             {
               "localTeam": "Girona",
               "visitorTeam": "Deportivo Alavés",
-              "localResult": "2",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "13_3_0"
             }
           ]
@@ -1444,9 +1584,10 @@
             {
               "localTeam": "Deportivo Alavés",
               "visitorTeam": "UD Las Palmas",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "14_0_0"
             }
           ]
@@ -1457,33 +1598,37 @@
             {
               "localTeam": "Getafe",
               "visitorTeam": "SD Eibar",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "14_1_0"
             },
             {
               "localTeam": "Real Madrid",
               "visitorTeam": "Sevilla",
-              "localResult": "5",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "14_1_1"
             },
             {
               "localTeam": "Deportivo",
               "visitorTeam": "CD Leganés",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "14_1_2"
             },
             {
               "localTeam": "Valencia",
               "visitorTeam": "Celta",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "14_1_3"
             }
           ]
@@ -1494,33 +1639,37 @@
             {
               "localTeam": "Real Sociedad",
               "visitorTeam": "Málaga",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "14_2_0"
             },
             {
               "localTeam": "Betis",
               "visitorTeam": "Atlético de Madrid",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "14_2_1"
             },
             {
               "localTeam": "Levante",
               "visitorTeam": "Athletic Club",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "14_2_2"
             },
             {
               "localTeam": "Villarreal",
               "visitorTeam": "FC Barcelona",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "14_2_3"
             }
           ]
@@ -1531,9 +1680,10 @@
             {
               "localTeam": "Espanyol",
               "visitorTeam": "Girona",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "14_3_0"
             }
           ]
@@ -1549,9 +1699,10 @@
             {
               "localTeam": "Sevilla",
               "visitorTeam": "Levante",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "15_0_0"
             }
           ]
@@ -1562,25 +1713,28 @@
             {
               "localTeam": "Athletic Club",
               "visitorTeam": "Real Sociedad",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "15_1_0"
             },
             {
               "localTeam": "SD Eibar",
               "visitorTeam": "Valencia",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "15_1_1"
             },
             {
               "localTeam": "Atlético de Madrid",
               "visitorTeam": "Deportivo Alavés",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "15_1_2"
             }
           ]
@@ -1591,33 +1745,37 @@
             {
               "localTeam": "Girona",
               "visitorTeam": "Getafe",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "15_2_0"
             },
             {
               "localTeam": "Celta",
               "visitorTeam": "Villarreal",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "15_2_1"
             },
             {
               "localTeam": "UD Las Palmas",
               "visitorTeam": "Espanyol",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "15_2_2"
             },
             {
               "localTeam": "FC Barcelona",
               "visitorTeam": "Deportivo",
-              "localResult": "4",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "15_2_3"
             }
           ]
@@ -1628,9 +1786,10 @@
             {
               "localTeam": "Málaga",
               "visitorTeam": "Betis",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "15_3_0"
             }
           ]
@@ -1641,9 +1800,10 @@
             {
               "localTeam": "CD Leganés",
               "visitorTeam": "Real Madrid",
-              "localResult": "1",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "15_4_0"
             }
           ]
@@ -1659,9 +1819,10 @@
             {
               "localTeam": "Levante",
               "visitorTeam": "CD Leganés",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "16_0_0"
             }
           ]
@@ -1672,17 +1833,19 @@
             {
               "localTeam": "Getafe",
               "visitorTeam": "UD Las Palmas",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "16_1_0"
             },
             {
               "localTeam": "Real Sociedad",
               "visitorTeam": "Sevilla",
-              "localResult": "3",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "16_1_1"
             }
           ]
@@ -1693,17 +1856,19 @@
             {
               "localTeam": "SD Eibar",
               "visitorTeam": "Girona",
-              "localResult": "4",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "16_2_0"
             },
             {
               "localTeam": "Deportivo Alavés",
               "visitorTeam": "Málaga",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "16_2_1"
             }
           ]
@@ -1714,17 +1879,19 @@
             {
               "localTeam": "Betis",
               "visitorTeam": "Athletic Club",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "16_3_0"
             },
             {
               "localTeam": "Espanyol",
               "visitorTeam": "Atlético de Madrid",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "16_3_1"
             }
           ]
@@ -1735,25 +1902,28 @@
             {
               "localTeam": "Real Madrid",
               "visitorTeam": "FC Barcelona",
-              "localResult": "0",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "16_4_0"
             },
             {
               "localTeam": "Valencia",
               "visitorTeam": "Villarreal",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "16_4_1"
             },
             {
               "localTeam": "Deportivo",
               "visitorTeam": "Celta",
-              "localResult": "1",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "16_4_2"
             }
           ]
@@ -1769,33 +1939,37 @@
             {
               "localTeam": "Atlético de Madrid",
               "visitorTeam": "Getafe",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "17_0_0"
             },
             {
               "localTeam": "Valencia",
               "visitorTeam": "Girona",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "17_0_1"
             },
             {
               "localTeam": "UD Las Palmas",
               "visitorTeam": "SD Eibar",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "17_0_2"
             },
             {
               "localTeam": "Sevilla",
               "visitorTeam": "Betis",
-              "localResult": "3",
-              "visitorResult": "5",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "17_0_3"
             }
           ]
@@ -1806,41 +1980,46 @@
             {
               "localTeam": "CD Leganés",
               "visitorTeam": "Real Sociedad",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "17_1_0"
             },
             {
               "localTeam": "FC Barcelona",
               "visitorTeam": "Levante",
-              "localResult": "3",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "17_1_1"
             },
             {
               "localTeam": "Villarreal",
               "visitorTeam": "Deportivo",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "17_1_2"
             },
             {
               "localTeam": "Athletic Club",
               "visitorTeam": "Deportivo Alavés",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "17_1_3"
             },
             {
               "localTeam": "Celta",
               "visitorTeam": "Real Madrid",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "17_1_4"
             }
           ]
@@ -1851,9 +2030,10 @@
             {
               "localTeam": "Málaga",
               "visitorTeam": "Espanyol",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "17_2_0"
             }
           ]
@@ -1869,9 +2049,10 @@
             {
               "localTeam": "Getafe",
               "visitorTeam": "Málaga",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "18_0_0"
             }
           ]
@@ -1882,33 +2063,37 @@
             {
               "localTeam": "Girona",
               "visitorTeam": "UD Las Palmas",
-              "localResult": "6",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "18_1_0"
             },
             {
               "localTeam": "Real Madrid",
               "visitorTeam": "Villarreal",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "18_1_1"
             },
             {
               "localTeam": "SD Eibar",
               "visitorTeam": "Atlético de Madrid",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "18_1_2"
             },
             {
               "localTeam": "Deportivo",
               "visitorTeam": "Valencia",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "18_1_3"
             }
           ]
@@ -1919,33 +2104,37 @@
             {
               "localTeam": "Levante",
               "visitorTeam": "Celta",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "18_2_0"
             },
             {
               "localTeam": "Deportivo Alavés",
               "visitorTeam": "Sevilla",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "18_2_1"
             },
             {
               "localTeam": "Espanyol",
               "visitorTeam": "Athletic Club",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "18_2_2"
             },
             {
               "localTeam": "Real Sociedad",
               "visitorTeam": "FC Barcelona",
-              "localResult": "2",
-              "visitorResult": "4",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "18_2_3"
             }
           ]
@@ -1956,9 +2145,10 @@
             {
               "localTeam": "Betis",
               "visitorTeam": "CD Leganés",
-              "localResult": "3",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "18_3_0"
             }
           ]
@@ -1974,9 +2164,10 @@
             {
               "localTeam": "Getafe",
               "visitorTeam": "Athletic Club",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "19_0_0"
             }
           ]
@@ -1987,33 +2178,37 @@
             {
               "localTeam": "Espanyol",
               "visitorTeam": "Sevilla",
-              "localResult": "0",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "19_1_0"
             },
             {
               "localTeam": "Atlético de Madrid",
               "visitorTeam": "Girona",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "19_1_1"
             },
             {
               "localTeam": "Villarreal",
               "visitorTeam": "Levante",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "19_1_2"
             },
             {
               "localTeam": "UD Las Palmas",
               "visitorTeam": "Valencia",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "19_1_3"
             }
           ]
@@ -2024,33 +2219,37 @@
             {
               "localTeam": "Deportivo Alavés",
               "visitorTeam": "CD Leganés",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "19_2_0"
             },
             {
               "localTeam": "Real Madrid",
               "visitorTeam": "Deportivo",
-              "localResult": "7",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "19_2_1"
             },
             {
               "localTeam": "Real Sociedad",
               "visitorTeam": "Celta",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "19_2_2"
             },
             {
               "localTeam": "Betis",
               "visitorTeam": "FC Barcelona",
-              "localResult": "0",
-              "visitorResult": "5",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "19_2_3"
             }
           ]
@@ -2061,9 +2260,10 @@
             {
               "localTeam": "SD Eibar",
               "visitorTeam": "Málaga",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "19_3_0"
             }
           ]
@@ -2079,9 +2279,10 @@
             {
               "localTeam": "Athletic Club",
               "visitorTeam": "SD Eibar",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "20_0_0"
             }
           ]
@@ -2092,33 +2293,37 @@
             {
               "localTeam": "Deportivo",
               "visitorTeam": "Levante",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "20_1_0"
             },
             {
               "localTeam": "Valencia",
               "visitorTeam": "Real Madrid",
-              "localResult": "1",
-              "visitorResult": "4",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "20_1_1"
             },
             {
               "localTeam": "Málaga",
               "visitorTeam": "Girona",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "20_1_2"
             },
             {
               "localTeam": "Villarreal",
               "visitorTeam": "Real Sociedad",
-              "localResult": "4",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "20_1_3"
             }
           ]
@@ -2129,33 +2334,37 @@
             {
               "localTeam": "CD Leganés",
               "visitorTeam": "Espanyol",
-              "localResult": "3",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "20_2_0"
             },
             {
               "localTeam": "Atlético de Madrid",
               "visitorTeam": "UD Las Palmas",
-              "localResult": "3",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "20_2_1"
             },
             {
               "localTeam": "Sevilla",
               "visitorTeam": "Getafe",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "20_2_2"
             },
             {
               "localTeam": "FC Barcelona",
               "visitorTeam": "Deportivo Alavés",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "20_2_3"
             }
           ]
@@ -2166,9 +2375,10 @@
             {
               "localTeam": "Celta",
               "visitorTeam": "Betis",
-              "localResult": "3",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "20_3_0"
             }
           ]
@@ -2184,9 +2394,10 @@
             {
               "localTeam": "Real Sociedad",
               "visitorTeam": "Deportivo",
-              "localResult": "5",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "21_0_0"
             }
           ]
@@ -2197,33 +2408,37 @@
             {
               "localTeam": "SD Eibar",
               "visitorTeam": "Sevilla",
-              "localResult": "5",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "21_1_0"
             },
             {
               "localTeam": "Betis",
               "visitorTeam": "Villarreal",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "21_1_1"
             },
             {
               "localTeam": "Deportivo Alavés",
               "visitorTeam": "Celta",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "21_1_2"
             },
             {
               "localTeam": "Levante",
               "visitorTeam": "Real Madrid",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "21_1_3"
             }
           ]
@@ -2234,33 +2449,37 @@
             {
               "localTeam": "Getafe",
               "visitorTeam": "CD Leganés",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "21_2_0"
             },
             {
               "localTeam": "Espanyol",
               "visitorTeam": "FC Barcelona",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "21_2_1"
             },
             {
               "localTeam": "Girona",
               "visitorTeam": "Athletic Club",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "21_2_2"
             },
             {
               "localTeam": "Atlético de Madrid",
               "visitorTeam": "Valencia",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "21_2_3"
             }
           ]
@@ -2271,9 +2490,10 @@
             {
               "localTeam": "UD Las Palmas",
               "visitorTeam": "Málaga",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "21_3_0"
             }
           ]
@@ -2289,9 +2509,10 @@
             {
               "localTeam": "Athletic Club",
               "visitorTeam": "UD Las Palmas",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "22_0_0"
             }
           ]
@@ -2302,33 +2523,37 @@
             {
               "localTeam": "Villarreal",
               "visitorTeam": "Deportivo Alavés",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "22_1_0"
             },
             {
               "localTeam": "Málaga",
               "visitorTeam": "Atlético de Madrid",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "22_1_1"
             },
             {
               "localTeam": "CD Leganés",
               "visitorTeam": "SD Eibar",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "22_1_2"
             },
             {
               "localTeam": "Real Madrid",
               "visitorTeam": "Real Sociedad",
-              "localResult": "5",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "22_1_3"
             }
           ]
@@ -2339,33 +2564,37 @@
             {
               "localTeam": "Sevilla",
               "visitorTeam": "Girona",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "22_2_0"
             },
             {
               "localTeam": "FC Barcelona",
               "visitorTeam": "Getafe",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "22_2_1"
             },
             {
               "localTeam": "Celta",
               "visitorTeam": "Espanyol",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "22_2_2"
             },
             {
               "localTeam": "Valencia",
               "visitorTeam": "Levante",
-              "localResult": "3",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "22_2_3"
             }
           ]
@@ -2376,9 +2605,10 @@
             {
               "localTeam": "Deportivo",
               "visitorTeam": "Betis",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "22_3_0"
             }
           ]
@@ -2394,9 +2624,10 @@
             {
               "localTeam": "Girona",
               "visitorTeam": "CD Leganés",
-              "localResult": "3",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "23_0_0"
             }
           ]
@@ -2407,33 +2638,37 @@
             {
               "localTeam": "UD Las Palmas",
               "visitorTeam": "Sevilla",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "23_1_0"
             },
             {
               "localTeam": "SD Eibar",
               "visitorTeam": "FC Barcelona",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "23_1_1"
             },
             {
               "localTeam": "Deportivo Alavés",
               "visitorTeam": "Deportivo",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "23_1_2"
             },
             {
               "localTeam": "Málaga",
               "visitorTeam": "Valencia",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "23_1_3"
             }
           ]
@@ -2444,33 +2679,37 @@
             {
               "localTeam": "Real Sociedad",
               "visitorTeam": "Levante",
-              "localResult": "3",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "23_2_0"
             },
             {
               "localTeam": "Atlético de Madrid",
               "visitorTeam": "Athletic Club",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "23_2_1"
             },
             {
               "localTeam": "Espanyol",
               "visitorTeam": "Villarreal",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "23_2_2"
             },
             {
               "localTeam": "Betis",
               "visitorTeam": "Real Madrid",
-              "localResult": "3",
-              "visitorResult": "5",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "23_2_3"
             }
           ]
@@ -2481,9 +2720,10 @@
             {
               "localTeam": "Getafe",
               "visitorTeam": "Celta",
-              "localResult": "3",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "23_3_0"
             }
           ]
@@ -2499,9 +2739,10 @@
             {
               "localTeam": "Deportivo",
               "visitorTeam": "Espanyol",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "24_0_0"
             }
           ]
@@ -2512,33 +2753,37 @@
             {
               "localTeam": "Celta",
               "visitorTeam": "SD Eibar",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "24_1_0"
             },
             {
               "localTeam": "Real Madrid",
               "visitorTeam": "Deportivo Alavés",
-              "localResult": "4",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "24_1_1"
             },
             {
               "localTeam": "CD Leganés",
               "visitorTeam": "UD Las Palmas",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "24_1_2"
             },
             {
               "localTeam": "FC Barcelona",
               "visitorTeam": "Girona",
-              "localResult": "6",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "24_1_3"
             }
           ]
@@ -2549,33 +2794,37 @@
             {
               "localTeam": "Villarreal",
               "visitorTeam": "Getafe",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "24_2_0"
             },
             {
               "localTeam": "Athletic Club",
               "visitorTeam": "Málaga",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "24_2_1"
             },
             {
               "localTeam": "Valencia",
               "visitorTeam": "Real Sociedad",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "24_2_2"
             },
             {
               "localTeam": "Sevilla",
               "visitorTeam": "Atlético de Madrid",
-              "localResult": "2",
-              "visitorResult": "5",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "24_2_3"
             }
           ]
@@ -2586,9 +2835,10 @@
             {
               "localTeam": "Levante",
               "visitorTeam": "Betis",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "24_3_0"
             }
           ]
@@ -2604,17 +2854,19 @@
             {
               "localTeam": "Espanyol",
               "visitorTeam": "Real Madrid",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "25_0_0"
             },
             {
               "localTeam": "Girona",
               "visitorTeam": "Celta",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "25_0_1"
             }
           ]
@@ -2625,41 +2877,46 @@
             {
               "localTeam": "Athletic Club",
               "visitorTeam": "Valencia",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "25_1_0"
             },
             {
               "localTeam": "Málaga",
               "visitorTeam": "Sevilla",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "25_1_1"
             },
             {
               "localTeam": "Getafe",
               "visitorTeam": "Deportivo",
-              "localResult": "3",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "25_1_2"
             },
             {
               "localTeam": "Atlético de Madrid",
               "visitorTeam": "CD Leganés",
-              "localResult": "4",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "25_1_3"
             },
             {
               "localTeam": "SD Eibar",
               "visitorTeam": "Villarreal",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "25_1_4"
             }
           ]
@@ -2670,25 +2927,28 @@
             {
               "localTeam": "Betis",
               "visitorTeam": "Real Sociedad",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "25_2_0"
             },
             {
               "localTeam": "UD Las Palmas",
               "visitorTeam": "FC Barcelona",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "25_2_1"
             },
             {
               "localTeam": "Deportivo Alavés",
               "visitorTeam": "Levante",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "25_2_2"
             }
           ]
@@ -2704,41 +2964,46 @@
             {
               "localTeam": "Villarreal",
               "visitorTeam": "Girona",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "26_0_0"
             },
             {
               "localTeam": "Sevilla",
               "visitorTeam": "Athletic Club",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "26_0_1"
             },
             {
               "localTeam": "Deportivo",
               "visitorTeam": "SD Eibar",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "26_0_2"
             },
             {
               "localTeam": "CD Leganés",
               "visitorTeam": "Málaga",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "26_0_3"
             },
             {
               "localTeam": "Real Madrid",
               "visitorTeam": "Getafe",
-              "localResult": "3",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "26_0_4"
             }
           ]
@@ -2749,33 +3014,37 @@
             {
               "localTeam": "Levante",
               "visitorTeam": "Espanyol",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "26_1_0"
             },
             {
               "localTeam": "FC Barcelona",
               "visitorTeam": "Atlético de Madrid",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "26_1_1"
             },
             {
               "localTeam": "Real Sociedad",
               "visitorTeam": "Deportivo Alavés",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "26_1_2"
             },
             {
               "localTeam": "Valencia",
               "visitorTeam": "Betis",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "26_1_3"
             }
           ]
@@ -2786,9 +3055,10 @@
             {
               "localTeam": "Celta",
               "visitorTeam": "UD Las Palmas",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "26_2_0"
             }
           ]
@@ -2804,9 +3074,10 @@
             {
               "localTeam": "Girona",
               "visitorTeam": "Deportivo",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "27_0_0"
             }
           ]
@@ -2817,33 +3088,37 @@
             {
               "localTeam": "SD Eibar",
               "visitorTeam": "Real Madrid",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "27_1_0"
             },
             {
               "localTeam": "Sevilla",
               "visitorTeam": "Valencia",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "27_1_1"
             },
             {
               "localTeam": "Getafe",
               "visitorTeam": "Levante",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "27_1_2"
             },
             {
               "localTeam": "Málaga",
               "visitorTeam": "FC Barcelona",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "27_1_3"
             }
           ]
@@ -2854,33 +3129,37 @@
             {
               "localTeam": "Espanyol",
               "visitorTeam": "Real Sociedad",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "27_2_0"
             },
             {
               "localTeam": "Atlético de Madrid",
               "visitorTeam": "Celta",
-              "localResult": "3",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "27_2_1"
             },
             {
               "localTeam": "UD Las Palmas",
               "visitorTeam": "Villarreal",
-              "localResult": "0",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "27_2_2"
             },
             {
               "localTeam": "Athletic Club",
               "visitorTeam": "CD Leganés",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "27_2_3"
             }
           ]
@@ -2891,9 +3170,10 @@
             {
               "localTeam": "Deportivo Alavés",
               "visitorTeam": "Betis",
-              "localResult": "1",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "27_3_0"
             }
           ]
@@ -2909,9 +3189,10 @@
             {
               "localTeam": "Levante",
               "visitorTeam": "SD Eibar",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "28_0_0"
             }
           ]
@@ -2922,33 +3203,37 @@
             {
               "localTeam": "Deportivo",
               "visitorTeam": "UD Las Palmas",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "28_1_0"
             },
             {
               "localTeam": "Valencia",
               "visitorTeam": "Deportivo Alavés",
-              "localResult": "3",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "28_1_1"
             },
             {
               "localTeam": "Real Sociedad",
               "visitorTeam": "Getafe",
-              "localResult": "1",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "28_1_2"
             },
             {
               "localTeam": "Betis",
               "visitorTeam": "Espanyol",
-              "localResult": "3",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "28_1_3"
             }
           ]
@@ -2959,41 +3244,46 @@
             {
               "localTeam": "CD Leganés",
               "visitorTeam": "Sevilla",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "28_2_0"
             },
             {
               "localTeam": "FC Barcelona",
               "visitorTeam": "Athletic Club",
-              "localResult": "2",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "28_2_1"
             },
             {
               "localTeam": "Villarreal",
               "visitorTeam": "Atlético de Madrid",
-              "localResult": "2",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "28_2_2"
             },
             {
               "localTeam": "Celta",
               "visitorTeam": "Málaga",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "28_2_3"
             },
             {
               "localTeam": "Real Madrid",
               "visitorTeam": "Girona",
-              "localResult": "6",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "28_2_4"
             }
           ]
@@ -3009,33 +3299,37 @@
             {
               "localTeam": "Girona",
               "visitorTeam": "Levante",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "29_0_0"
             },
             {
               "localTeam": "Athletic Club",
               "visitorTeam": "Celta",
-              "localResult": "1",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "29_0_1"
             },
             {
               "localTeam": "UD Las Palmas",
               "visitorTeam": "Real Madrid",
-              "localResult": "0",
-              "visitorResult": "3",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "29_0_2"
             },
             {
               "localTeam": "Sevilla",
               "visitorTeam": "FC Barcelona",
-              "localResult": "2",
-              "visitorResult": "2",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "29_0_3"
             }
           ]
@@ -3046,41 +3340,46 @@
             {
               "localTeam": "Espanyol",
               "visitorTeam": "Deportivo Alavés",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "29_1_0"
             },
             {
               "localTeam": "CD Leganés",
               "visitorTeam": "Valencia",
-              "localResult": "0",
-              "visitorResult": "1",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "29_1_1"
             },
             {
               "localTeam": "SD Eibar",
               "visitorTeam": "Real Sociedad",
-              "localResult": "0",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "29_1_2"
             },
             {
               "localTeam": "Málaga",
               "visitorTeam": "Villarreal",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "29_1_3"
             },
             {
               "localTeam": "Atlético de Madrid",
               "visitorTeam": "Deportivo",
-              "localResult": "1",
-              "visitorResult": "0",
-              "matchState": "finished",
+              "localResult": "x",
+              "visitorResult": "x",
+              "match_time": "00:01",
+              "matchState": "notStarted",
               "index_fecha_partido": "29_1_4"
             }
           ]

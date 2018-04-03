@@ -11,14 +11,15 @@ const  url_ligaB_esp_incomplete = "https://www.eurosport.es/_ajax_/live_v8_5/liv
 const ligab = "https://www.eurosport.es/_ajax_/results_v8_5/results_teamsports_v8_5.zone?O2=1&site=ese&langueid=6&dropletid=150&domainid=141&sportid=22&revid=313&mime=text%2fxml&DeviceType=desktop&roundid=5"
 
 
-parseLeague = (req,resp) => {
+
+parseLeague = async (req,resp,db) => {
   //para parsear toda las fechas sin los resultados
   //simulando que no se jugo ningun partido
   //para hacer las pruebas de los forecasts
   let noresults = false;
 
-  if(req.query.noresults){
-    noresults = req.query.noresults;
+  if(req.query.noresults === "true"){
+    noresults = true;
   }
 
   var fullObj = {};
@@ -57,10 +58,10 @@ parseLeague = (req,resp) => {
     });
   }
 
-
-  Promise.all(promises).then(values => {
+  var jornadas = [];
+  await Promise.all(promises).then(values => {
     let base = 'J';
-    let jornadas = [];
+    //let jornadas = [];
     let count = 1;
 
     values.map(function(val,index){
@@ -73,10 +74,30 @@ parseLeague = (req,resp) => {
         count++;
       }
     });
-    resp.status(200).send({jornadas,urls,urls_live});
+
   }).catch(function(err){
     console.log(err)
   });
+
+  if(req.query.firebase === "true"){
+    console.log('storing output in firebase')
+
+    let jorn = JSON.parse( JSON.stringify(jornadas));
+    let updates = {};
+    updates['jornadas/'] = jorn;
+    //updates['users/'+facebookUserId+'/lastInsert'] = lastInsert;
+    await db.ref().update(updates).then(function(){
+      console.log('updated ok')
+    }).catch(function(error) {
+      console.log('error 1')
+      console.error(error)
+    });
+    /*
+    */
+    console.log('firebase updated')
+  }
+
+  resp.status(200).send({jornadas,firebaseStored:req.query.firebase});
 }
 
 module.exports = {parseLeague};
