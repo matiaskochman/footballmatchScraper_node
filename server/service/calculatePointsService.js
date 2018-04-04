@@ -87,14 +87,15 @@ calculatePointsOfMatch = (fechaJugada,apuesta) =>{
 
 
   if(fechaJugada['matchState'] === 'finished'){
-    if(fechaJugada.localResult === apuesta.localForecast){
-      if(fechaJugada.visitorResult === apuesta.visitorForecast){
 
+    if(parseInt(fechaJugada.localResult) === apuesta.localForecast){
+      if(parseInt(fechaJugada.visitorResult) === apuesta.visitorForecast){
         //acerto el resultado exacto , 5ptos
         return 5;
+      }else{
+        return 0;
       }
-    }
-    if(fechaJugada.localResult < fechaJugada.visitorResult){
+    }else if(parseInt(fechaJugada.localResult) < parseInt(fechaJugada.visitorResult)){
         if(apuesta.localForecast < apuesta.visitorForecast){
           // ganó visitante y el forecast acertó
           return 3;
@@ -102,7 +103,7 @@ calculatePointsOfMatch = (fechaJugada,apuesta) =>{
           // ganó visitante y forecast no acertó
           return 0;
         }
-    }else if(fechaJugada.localResult > fechaJugada.visitorResult){
+    }else if(parseInt(fechaJugada.localResult) > parseInt(fechaJugada.visitorResult)){
       if(apuesta.localForecast > apuesta.visitorForecast){
         // ganó visitante y el forecast acertó
         return 3;
@@ -110,7 +111,7 @@ calculatePointsOfMatch = (fechaJugada,apuesta) =>{
         // ganó visitante y forecast no acertó
         return 0;
       }
-    }else if(fechaJugada.localResult === fechaJugada.visitorResult){
+    }else if(parseInt(fechaJugada.localResult) === parseInt(fechaJugada.visitorResult)){
       if(apuesta.localForecast === apuesta.visitorForecast){
         // ganó visitante y el forecast acertó
         return 3;
