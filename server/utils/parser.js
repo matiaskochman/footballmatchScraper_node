@@ -164,7 +164,7 @@ const parsePartido = (partido_tag,fecha_partido,jornada,index_fecha_dia,index_pa
 
       index_fecha_dia--;
       let index_fecha_partido = jornada.toString().concat('_').concat(index_fecha_dia.toString()).concat('_').concat(index_partido);
-
+      //let key = index_fecha_partido;
       let partido = {localTeam,visitorTeam,localResult,visitorResult,match_time,matchState,index_fecha_partido}
       index_fecha_dia++;
       fecha_partido.partidos.push(partido);

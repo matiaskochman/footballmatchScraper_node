@@ -53,6 +53,8 @@ calculateTotalPoints = async (req,resp,db) => {
                   let points = calculatePointsOfMatch(jornadas[i].list[j].partidos[z],usuario.Apuestas[index_fecha_partido]);
 
                   let apuesta = {...usuario.Apuestas[index_fecha_partido]};
+                  apuesta.localResult = jornadas[i].list[j].partidos[z].localResult;
+                  apuesta.visitorResult = jornadas[i].list[j].partidos[z].visitorResult;
                   apuesta.points = points;
 
                   apuesta.date_modified = moment().format();
