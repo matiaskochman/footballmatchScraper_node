@@ -2,7 +2,7 @@
 const _ = require('lodash');
 const moment = require('moment');
 // Fetch the service account key JSON file contents
-var serviceAccount = require("../firebase/firebase_config.json");
+//var serviceAccount = require("../firebase/firebase_config.json");
 
 // Initialize the app with a service account, granting admin privileges
 /*

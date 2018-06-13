@@ -8,6 +8,7 @@ var admin = require("firebase-admin");
 //var parser = require('./parser.js');
 var parseService = require('./service/parseService');
 const pointsService = require('./service/calculatePointsService');
+const usersService = require('./service/usersService');
 var serviceAccount = require("./firebase/firebase_config.json");
 const port = process.env.PORT || 3000;
 
@@ -34,6 +35,10 @@ app.get('/data',(req,resp) => {
 
 app.get('/calculateTotalPoints',(req,resp) =>{
   pointsService.calculateTotalPoints(req,resp,db);
+});
+
+app.get('/createFakeUsers',(req,resp) => {
+  usersService.createFakeUsers(req,resp,db);
 });
 
 app.listen(port,()=>{
